@@ -1,0 +1,172 @@
+@charset "UTF-8";
+
+/* 게시판 공통 */
+
+h1.title{
+	background: gray;
+	padding : 15px;
+	border-radius: 10px;
+	margin-bottom : 20px;
+}
+
+.btnZone {
+	text-align : center;
+	margin-top : 20px;
+}
+
+/*게시판 검색 */
+.list .find {
+	float : right;
+}
+
+.list .items_title {
+	clear : both;
+	background-color: #ccc;
+	padding: 5px;
+	margin-top : 5px;
+	margin-bottom : 5px;
+}
+
+.list .items_title span , .list .items_list span{
+	display : inline-block;
+}
+
+.list .serial {
+	width : 40px;
+	text-align: right;
+	margin-right : 20px;
+}
+
+.list .subject {
+	width : 620px;
+}
+
+.list .mdate {
+	width : 90px;
+}
+.list .worker {
+	width : 120px;
+}
+
+.list .hit {
+	width : 60px;
+	text-align : right;
+	margin-right : 10px;
+}
+
+.list .items:hover {
+	background-color : #eee;
+}
+
+.list .items:last-child{
+	border-bottom : 1px solid #999;
+}
+
+.list .paging {
+	margin-top : 20px;
+	text-align : center;
+}
+
+.list .paging input[type=button] {
+	border: 1px solid #bbb;
+	padding : 4px;
+	border-radius: 15px;
+}
+
+/* 게시판 입력 */
+.input #frm_board label {
+	display: inline-block;
+	width : 70px;
+	text-align : right;
+}
+
+.input .subject {
+	width : 850px;
+}
+
+
+.input .content {
+	width : 850px;
+	height : 250px;
+	margin-top :3px;
+}
+
+.input .pwd {
+	margin-bottom : 3px;
+}
+.input #attFile{
+	display : inlin-block;
+	width : 850px;
+	min-height : 180px;
+	border : 1px solid #aaa;
+	margin-top :3px;
+}
+
+.input #attFile[contentEditable="true"]:empty:before{
+	content : attr(data-placeholder);
+	color : #999;
+	font-size: .9rem;
+}
+
+
+/* 상세보기 */
+.view .label {
+	display: inline-block;
+	width : 90px;
+}
+
+.view .content {
+	border: 1px solid #aaa;
+	padding : 10px;
+	width : 100%;
+	margin-top : 10px;
+	margin-bottom : 10px;
+	box-shadow : 2px 2px 3px #aaa;
+	border-radius : 6px;
+	min-height : 200px;
+}
+
+.view .item {
+	display : inline-block;
+	width : 160px;
+}
+
+.view img {
+	width : 150px;
+	height : 180px;
+}
+
+.view .img_label {
+	font-size : 0.9rem;
+	color : #888;
+}
+
+
+/* 수정 */
+.input .items {
+	display : inline-block;
+	width : 850px;
+	vertical-align : top;
+	
+}
+
+/*결과*/
+.result {
+	width : 700px;
+	padding : 30px;
+	margin : 30px auto;
+	text-align : center;
+	background-color : #ccc;
+	border-radius : 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
